@@ -1,0 +1,11 @@
+general:
+
+1. use try catch with resources with database connections
+2. use prepared statements if you're filtering by different attributes dynamically
+3. Keep in mind the execution times of Java Collections e.g don't use an arraylist for keeping track of copies, use a set
+
+jpa:
+
+1. use saveAll, deleteAll operations - jpa
+2. use specifications API instead of hardcoding filters in psql statements
+3. use entity manager with native queries in case of complicated logic
