@@ -1,0 +1,4 @@
+1. use joins instead of subqueries
+2. use indexes on columns used in where or join clauses
+3. reuse join tables if possible
+4. use batch/bulk operations
