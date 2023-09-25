@@ -1,0 +1,4 @@
+1. learn how the sync operations and async operations get executed in javascript
+2. only update a certain state one time in a function since it's a async operation
+3. less rerenders is better
+4. use pagination like concepts in other use-cases (only load the data that it's needed, load the rest if requested)
